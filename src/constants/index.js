@@ -174,9 +174,9 @@ export const aboutItems = [
     },
     {
       imgSrc: '/images/project-6.jpg',
-      title: 'vCard Personal portfolio',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      title: 'TechNews-WebApp',
+      tags: ['Bootstrap', 'NewsAPI','Git','GitHub','Vercel'],
+      projectLink: 'https://project-3-tech-update-site.vercel.app/'
     },
   ];
 
