@@ -144,15 +144,15 @@ export const aboutItems = [
   export const works = [
     {
       imgSrc: '/images/project-1.jpg',
-      title: 'ThreadNiverse',
+      title: 'ThreadNiverse-fullStack',
       tags: ['PHP','MYSQL','Bootstrap','JS','APIs', 'SMTP','Hostinger'],
       projectLink: 'http://threadniverse.wuaze.com/'
     },
     {
       imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
-      tags: ['API', 'SPA'],
-      projectLink: 'https://pixstock-official.vercel.app/'
+      title: 'FootGear - LandingPage',
+      tags: ['ReactJS', 'Tailwind','Git','GitHub','Vercel'],
+      projectLink: 'https://foot-gear.vercel.app/'
     },
     {
       imgSrc: '/images/project-3.jpg',
