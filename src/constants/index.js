@@ -155,22 +155,22 @@ export const aboutItems = [
       projectLink: 'http://threadniverse.wuaze.com/'
     },
     {
+      imgSrc: '/images/url-shortner.png',
+      title: 'URL_Shortner-Discord_Integration',
+      tags: ['NodeJS','Express','MongoDB','Discord-Bot-API','Discord Server'],
+      projectLink: 'https://discord.gg/F95aswRT'
+    },
+    {
       imgSrc: '/images/project-2.jpg',
       title: 'FootGear - LandingPage',
       tags: ['ReactJS', 'Tailwind','Git','GitHub','Vercel'],
       projectLink: 'https://foot-gear.vercel.app/'
     },
     {
-      imgSrc: '/images/project-4.jpg',
-      title: 'Real state website',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee-org/wealthome'
-    },
-    {
       imgSrc: '/images/project-5.jpg',
-      title: 'eCommerce website',
-      tags: ['eCommerce', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+      title: 'Personal Portfolio',
+      tags: ['ReactJS', 'Redux','Tailwind','GSAP','lenis'],
+      projectLink: 'https://heera-rana.vercel.app/'
     },
     {
       imgSrc: '/images/project-6.jpg',
