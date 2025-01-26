@@ -143,6 +143,12 @@ export const aboutItems = [
   ];
   export const works = [
     {
+      imgSrc: '/images/v2verse-thumbnail.png',
+      title: 'Muti-Seller E-Commerce',
+      tags: ['ReactJS', 'Redux Toolkit','JWT','NodeJS','Express','MongoDB','Socket.io','Tailwind','Cloudinary API'],
+      projectLink: 'https://v2verse.vercel.app'
+    },
+    {
       imgSrc: '/images/project-1.jpg',
       title: 'ThreadNiverse-fullStack',
       tags: ['PHP','MYSQL','Bootstrap','JS','APIs', 'SMTP','Hostinger'],
@@ -153,12 +159,6 @@ export const aboutItems = [
       title: 'FootGear - LandingPage',
       tags: ['ReactJS', 'Tailwind','Git','GitHub','Vercel'],
       projectLink: 'https://foot-gear.vercel.app/'
-    },
-    {
-      imgSrc: '/images/project-3.jpg',
-      title: 'Recipe app',
-      tags: ['Development', 'API'],
-      projectLink: ''
     },
     {
       imgSrc: '/images/project-4.jpg',
