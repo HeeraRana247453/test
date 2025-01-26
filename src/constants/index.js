@@ -167,7 +167,7 @@ export const aboutItems = [
       projectLink: 'https://foot-gear.vercel.app/'
     },
     {
-      imgSrc: '/images/project-5.jpg',
+      imgSrc: '/images/portfolio.png',
       title: 'Personal Portfolio',
       tags: ['ReactJS', 'Redux','Tailwind','GSAP','lenis'],
       projectLink: 'https://heera-rana.vercel.app/'
