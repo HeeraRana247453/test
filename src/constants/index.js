@@ -161,16 +161,16 @@ export const aboutItems = [
       projectLink: 'https://discord.gg/F95aswRT'
     },
     {
-      imgSrc: '/images/project-2.jpg',
-      title: 'FootGear - LandingPage',
-      tags: ['ReactJS', 'Tailwind','Git','GitHub','Vercel'],
-      projectLink: 'https://foot-gear.vercel.app/'
-    },
-    {
       imgSrc: '/images/portfolio.png',
       title: 'Personal Portfolio',
       tags: ['ReactJS', 'Redux','Tailwind','GSAP','lenis'],
       projectLink: 'https://heera-rana.vercel.app/'
+    },
+    {
+      imgSrc: '/images/project-2.jpg',
+      title: 'FootGear - LandingPage',
+      tags: ['ReactJS', 'Tailwind','Git','GitHub','Vercel'],
+      projectLink: 'https://foot-gear.vercel.app/'
     },
     {
       imgSrc: '/images/project-6.jpg',
