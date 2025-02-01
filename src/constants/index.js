@@ -143,7 +143,7 @@ export const aboutItems = [
   ];
   export const works = [
     {
-      imgSrc: '/images/v2verse-thumbnail.png',
+      imgSrc: '/images/v2verseThumbnail.png',
       title: 'MutiSeller-ECommerce',
       tags: ['ReactJS', 'Redux Toolkit','JWT','NodeJS','Express','MongoDB','Socket.io','Tailwind','Cloudinary API'],
       projectLink: 'https://v2verse.vercel.app'
