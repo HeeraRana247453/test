@@ -1,4 +1,5 @@
 import { socialLinks } from "../constants/SocialLinks"
+import { resumeLink } from "../constants"
 import {ButtonOutline, ButtonPrimary} from "./Button"
 
 const Hero = () => {
@@ -33,7 +34,7 @@ const Hero = () => {
                     <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 reveal-up">
                     Crafting Scalable, Future-Ready Websites that Drive Innovation                    </h2>
                     <div className="flex items-center gap-3">
-                        <ButtonPrimary href="https://drive.google.com/file/d/1CzB_3DP74CHRkv4TgUZnDAZBeFPLEbJz/view?usp=drivesdk" label="Download CV" icon="download" classes="reveal-up" />
+                        <ButtonPrimary href={`${resumeLink}`} label="Download CV" icon="download" classes="reveal-up" />
 
                         <ButtonOutline href="#about" label="Scroll down" icon="arrow_downward" classes="reveal-up" />
                     </div>

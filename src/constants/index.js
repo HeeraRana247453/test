@@ -39,6 +39,8 @@ export const aboutItems = [
     }
   ];
 
+  export const resumeLink = "https://drive.google.com/file/d/1CzB_3DP74CHRkv4TgUZnDAZBeFPLEbJz/view?usp=drivesdk";
+
   export const skillItem = [
     {
       imgSrc: '/images/react.svg',
@@ -245,7 +247,7 @@ export const aboutItems = [
 export const socials = [
     {
       label: 'GitHub',
-      href: 'https://github.com/HeeraRana247453'
+      // href: 'https://github.com/HeeraRana247453'
     },
     {
       label: 'LinkedIn',
