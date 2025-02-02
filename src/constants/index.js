@@ -41,29 +41,19 @@ export const aboutItems = [
 
   export const skillItem = [
     {
-      imgSrc: '/images/figma.svg',
-      label: 'Figma',
-      desc: 'Design tool'
-    },
-    {
-      imgSrc: '/images/css3.svg',
-      label: 'CSS',
-      desc: 'User Interface'
-    },
-    {
-      imgSrc: '/images/javascript.svg',
-      label: 'JavaScript',
-      desc: 'Interaction'
-    },
-    {
-      imgSrc: '/images/nodejs.svg',
-      label: 'NodeJS',
-      desc: 'Web Server'
+      imgSrc: '/images/react.svg',
+      label: 'React',
+      desc: 'Framework'
     },
     {
       imgSrc: '/images/redux.svg',
       label: 'Redux',
       desc: 'Javascript Library'
+    },
+    {
+      imgSrc: '/images/nodejs.svg',
+      label: 'NodeJS',
+      desc: 'Web Server'
     },
     {
       imgSrc: '/images/expressjs.svg',
@@ -76,14 +66,14 @@ export const aboutItems = [
       desc: 'Database'
     },
     {
-      imgSrc: '/images/react.svg',
-      label: 'React',
-      desc: 'Framework'
+      imgSrc: '/images/jwt.svg',
+      label: 'JWT',
+      desc: 'Authentication tool'
     },
     {
-      imgSrc: '/images/tailwindcss.svg',
-      label: 'TailwindCSS',
-      desc: 'User Interface'
+      imgSrc: '/images/socketio.svg',
+      label: 'Socket.IO',
+      desc: 'WebSocket'
     },
     {
       imgSrc: '/images/mysql.svg',
@@ -91,14 +81,34 @@ export const aboutItems = [
       desc: 'Database'
     },
     {
-      imgSrc: '/images/apache.svg',
-      label: 'Apache',
-      desc: 'Web Server'
+      imgSrc: '/images/php.svg',
+      label: 'PHP',
+      desc: 'Backend'
+    },
+    {
+      imgSrc: '/images/tailwindcss.svg',
+      label: 'TailwindCSS',
+      desc: 'User Interface'
     },
     {
       imgSrc: '/images/bootstrap.svg',
       label: 'Bootstrap',
       desc: 'User Interface'
+    },
+    {
+      imgSrc: '/images/css3.svg',
+      label: 'CSS',
+      desc: 'User Interface'
+    },
+    {
+      imgSrc: '/images/javascript.svg',
+      label: 'JavaScript',
+      desc: 'Interaction'
+    },
+    {
+      imgSrc: '/images/apache.svg',
+      label: 'Apache',
+      desc: 'Web Server'
     },
     {
       imgSrc: '/images/aws.svg',
@@ -121,11 +131,6 @@ export const aboutItems = [
       desc: 'Programming'
     },
     {
-      imgSrc: '/images/php.svg',
-      label: 'PHP',
-      desc: 'Backend'
-    },
-    {
       imgSrc: '/images/python.svg',
       label: 'Python',
       desc: 'Programming'
@@ -133,11 +138,6 @@ export const aboutItems = [
     {
       imgSrc: '/images/ubuntu.svg',
       label: 'Linux(Ubuntu)',
-      desc: 'Operating System'
-    },
-    {
-      imgSrc: '/images/window.svg',
-      label: 'Window',
       desc: 'Operating System'
     },
   ];
