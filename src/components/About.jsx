@@ -7,7 +7,10 @@ const About = () => {
                 <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
                     <strong>Welcome!, I’m Heera Rana</strong><br/>
-                    A passionate web developer with expertise in both front-end and back-end technologies. I create dynamic, user-friendly websites and applications. With a strong focus on both design and performance, I’m committed to delivering seamless digital experiences. I’m eager to bring my skills and fresh ideas to a collaborative team, while continuously growing as a developer.                    </p>
+A passionate full-stack web developer with expertise in React.js, Node.js, Express, MongoDB, PHP, MySQL, Redux Toolkit, Tailwind CSS, Socket.io, and Cloudinary API. <br/>
+I specialize in building scalable and high-performance web applications with a strong focus on backend development, real-time communication, and seamless user experiences.<br/>
+I love turning ideas into fully functional web solutions. I have experience integrating payment gateways, authentication systems, and API-driven services, ensuring efficiency and security.<br/>
+I’m constantly learning and evolving, eager to contribute to innovative projects and collaborate with like-minded developers.                   </p>
                     <div className="flex flex-wrap items-center gap-4 md:gap-7">
                         {aboutItems.map(({ label, number }, key) =>
                             <div key={key}>
