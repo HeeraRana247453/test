@@ -45,12 +45,12 @@ export const aboutItems = [
     {
       imgSrc: '/images/react.svg',
       label: 'React',
-      desc: 'Framework'
+      desc: 'JS Library'
     },
     {
       imgSrc: '/images/redux.svg',
       label: 'Redux',
-      desc: 'Javascript Library'
+      desc: 'JS Library'
     },
     {
       imgSrc: '/images/nodejs.svg',
@@ -114,7 +114,7 @@ export const aboutItems = [
     },
     {
       imgSrc: '/images/aws.svg',
-      label: 'Amazon Web Services',
+      label: 'AWS',
       desc: 'Cloud Service'
     },
     {
@@ -139,7 +139,7 @@ export const aboutItems = [
     },
     {
       imgSrc: '/images/ubuntu.svg',
-      label: 'Linux(Ubuntu)',
+      label: 'Linux',
       desc: 'Operating System'
     },
   ];
