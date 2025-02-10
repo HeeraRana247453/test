@@ -70,7 +70,7 @@ export const aboutItems = [
     {
       imgSrc: '/images/jwt.svg',
       label: 'JWT',
-      desc: 'Authentication tool'
+      desc: 'Auth. tool'
     },
     {
       imgSrc: '/images/socketio.svg',
@@ -140,7 +140,7 @@ export const aboutItems = [
     {
       imgSrc: '/images/ubuntu.svg',
       label: 'Linux',
-      desc: 'Operating System'
+      desc: 'OS'
     },
   ];
   export const works = [

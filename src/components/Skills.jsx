@@ -12,8 +12,8 @@ const Skills = () => {
                 Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
             </p>
 
-            <div className="grid gap-3 sm:grid-cols-2 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
-            {/* <div className="grid gap-3 grid-cols-1 md:grid-cols-3 lg:grid-cols-4"> */}
+            {/* <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]"> */}
+            <div className="grid gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 {skillItem.map(({imgSrc,label,desc},key)=>
                     <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} classes="reveal-up" />
                 )}
