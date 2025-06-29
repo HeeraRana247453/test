@@ -13,7 +13,7 @@ const Header = () => {
                 </h1>
 
                 <div className="relative md:justify-self-center">
-                    <button className="menu-btn md:hidden    backdrop-blur-xl shadow-[inset_0_1px_3px_rgba(255,255,255,0.2),_0_1px_0px_rgba(0,0,0,0.5)] ring-white/10 text-white ring-1 ring-inset" onClick={() => setNavOpen((navOpen) => !navOpen)}>
+                    <button className="menu-btn md:hidden" onClick={() => setNavOpen((navOpen) => !navOpen)}>
                         <span className="material-symbols-rounded">
                             {navOpen ? 'close' : 'menu'}
                         </span>

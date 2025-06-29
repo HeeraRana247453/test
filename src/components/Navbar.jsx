@@ -62,7 +62,7 @@ const Navbar = ({ navOpen }) => {
     ];
 
     return (
-        <nav className={`navbar ${navOpen ? 'active' : ''}  bg-white/10 backdrop-blur-xl shadow-[inset_0_1px_3px_rgba(255,255,255,0.2),_0_8px_20px_rgba(0,0,0,0.5)] ring-white/10 text-white ring-1 ring-inset`}>
+        <nav className={`navbar ${navOpen ? 'active' : ''} `}>
             {navItems.map(({ label, link, className, ref }, key) =>
                 <a href={link} key={key} ref={ref} className={className} onClick={activeCurrentLink}>
                     {label}
