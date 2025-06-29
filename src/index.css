@@ -109,6 +109,50 @@ body{
     @apply text-zinc-400
 }
 
+@keyframes float1 {
+    0% { transform: translate(0px, 0px) scale(0.7) rotate(0deg); }
+    50% { transform: translate(-200px, 150px) scale(1) rotate(30deg); }
+    100% { transform: translate(0px, 0px) scale(0.7) rotate(0deg); }
+  }
+  
+  @keyframes float2 {
+    0% { transform: translate(0px, 0px) scale(0.7) rotate(0deg); }
+    50% { transform: translate(180px, -160px) scale(0.9) rotate(-25deg); }
+    100% { transform: translate(0px, 0px) scale(0.7) rotate(0deg); }
+  }
+  
+  @keyframes float3 {
+    0% { transform: translate(0px, 0px) scale(1) rotate(0deg); }
+    50% { transform: translate(380px, -280px) scale(1.9) rotate(180deg); }
+    100% { transform: translate(0px, 0px) scale(1) rotate(0deg); }
+  }
+  
+  /* Assign fast speed */
+  .animate-float1 {
+    animation: float1 8s ease-in-out infinite alternate;
+  }
+  .animate-float2 {
+    animation: float2 10s ease-in-out infinite alternate;
+  }
+  .animate-float3 {
+    animation: float3 12s ease-in-out infinite alternate;
+  }
+
+  
+
+  /*For DROP EFFECT ON skill CARD  */
+  @keyframes ripple {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(1.2); opacity: 0; }
+  }
+  
+  .hover-ripple::before {
+    content: '';
+    @apply absolute inset-0 rounded-[inherit] border border-white/10;
+    animation: ripple 0.8s ease-out;
+  }
+  
+
 /* Card Animation */
 /* .card{
     @apply relative w-[200px] h-[200px] rounded-[10px]

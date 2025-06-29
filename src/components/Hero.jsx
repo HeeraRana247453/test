@@ -24,7 +24,7 @@ const Hero = () => {
 
                         <div className="flex items-center gap-2 mt-auto">
                             {socialLinks.slice(0, 2).map(({ href, icon }, key) =>
-                                <a key={key} href={href} target="_blank" className="w-9 h-9 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80 reveal-up">
+                                <a key={key} href={href} target="_blank" className="w-9 h-9 grid place-items-center rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80 reveal-up     bg-white/10 backdrop-blur-xl shadow-[inset_0_1px_3px_rgba(255,255,255,0.2),_0_8px_20px_rgba(0,0,0,0.5)] ring-white/10 text-white ring-1 ring-inset">
                                     {icon}
                                 </a>
                             )}
