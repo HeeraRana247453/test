@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section id="about" className="section">
             <div className="container">
-                <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
+                <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up backdrop-blur-xl shadow-[inset_0_1px_9px_rgba(255,255,255,0.2),_0_8px_20px_rgba(0,0,0,0.5)] ring-white/10 text-white ring-1 ring-inset">
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
                     <strong>Welcome!, I’m Heera Rana</strong><br/>
 A passionate full-stack web developer with expertise in React.js, Node.js, Express, MongoDB, PHP, MySQL, Redux Toolkit, Tailwind CSS, Socket.io, and Cloudinary API. <br/>
