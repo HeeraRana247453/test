@@ -151,16 +151,10 @@ export const aboutItems = [
       projectLink: 'https://v2verse.vercel.app'
     },
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'ThreadNiverse-fullStack',
-      tags: ['PHP','MYSQL','Bootstrap','JS','APIs', 'SMTP','Hostinger'],
-      projectLink: 'http://threadniverse.wuaze.com/'
-    },
-    {
       imgSrc: '/images/url-shortner.png',
       title: 'URL_Shortner-Discord_Integration',
       tags: ['NodeJS','Express','MongoDB','Discord-Bot-API','Discord Server'],
-      projectLink: 'https://discord.gg/F95aswRT'
+      projectLink: 'https://discord.gg/pntqZGvj'
     },
     {
       imgSrc: '/images/portfolio.png',
@@ -173,6 +167,12 @@ export const aboutItems = [
       title: 'FootGear - LandingPage',
       tags: ['ReactJS', 'Tailwind','Git','GitHub','Vercel'],
       projectLink: 'https://foot-gear.vercel.app/'
+    },
+    {
+      imgSrc: '/images/project-1.jpg',
+      title: 'ThreadNiverse-fullStack',
+      tags: ['PHP','MYSQL','Bootstrap','JS','APIs', 'SMTP','Hostinger'],
+      projectLink: 'http://threadniverse.wuaze.com/'
     },
     {
       imgSrc: '/images/project-6.jpg',
