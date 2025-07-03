@@ -4,7 +4,7 @@ const ProjectCard = ({ imgSrc, title, tags, projectLink, classes }) => {
         <div className={"relative p-0.5 rounded-2xl shadow-[16px_16px_20px_#0000008c] overflow-hidden before:absolute before:top-[-50%] before:right-[-50%] before:bottom-[-50%] before:left-[-50%] before:bg-[conic-gradient(transparent,#ff4545,#00ff99,#006aff,#ff0095,#ff4545,#006aff)] before:animate-spin-slow "+ classes }>
                 
             {/* hover:bg-zinc-700/50  active:bg-zinc-700/60 -> these two property will add the transparency in card bg on hover */}
-            <div className={"relative p-4 rounded-2xl bg-zinc-800 ring-1 ring-inset ring-zinc-50/5 transition-colors flex flex-col h-full" }>
+            <div className={"relative p-4 rounded-2xl bg-zinc-800 ring-1 ring-inset ring-zinc-50/5 transition-colors flex flex-col h-full  hover:bg-zinc-700/50  active:bg-zinc-700/60 -> these two property will add the transparency in card bg on hover" }>
 
                 <figure className="img-box aspect-square rounded-lg mb-4">
                     <img src={imgSrc} alt={title} loading='lazy' className="img-cover" />
