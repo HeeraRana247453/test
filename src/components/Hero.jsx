@@ -31,8 +31,8 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 reveal-up">
-                    Crafting Scalable, Future-Ready Websites that Drive Innovation                    </h2>
+                    <h1 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 reveal-up">
+                    Crafting Scalable, Future-Ready Websites that Drive Innovation                    </h1>
                     <div className="flex items-center gap-3">
                         <ButtonPrimary href={`${resumeLink}`} label="Download CV" icon="download" classes="reveal-up" />
 
