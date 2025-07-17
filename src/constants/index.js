@@ -154,7 +154,7 @@ export const aboutItems = [
       imgSrc: '/images/url-shortner.png',
       title: 'URL_Shortner-Discord_Integration',
       tags: ['NodeJS','Express','MongoDB','Discord-Bot-API','Discord Server'],
-      projectLink: 'https://discord.gg/pntqZGvj'
+      projectLink: 'https://discord.gg/psQDvcH8YV'
     },
     {
       imgSrc: '/images/portfolio.png',
