@@ -6,7 +6,7 @@ const About = () => {
             <div className="container">
                 <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up backdrop-blur-xl shadow-[inset_0_1px_9px_rgba(255,255,255,0.2),_0_8px_20px_rgba(0,0,0,0.5)] ring-white/10 text-white ring-1 ring-inset">
                 <div align="center">
-                    <img src="https://readme-typing-svg.demolab.com/?lines=Full+Stack+Developer;MERN+%7C+WordPress+%7C+Cloud;Open+Source+Contributor;Building+Scalable+Products&color=pink&center=true&width=350&height=65"/>
+                    <img src="https://readme-typing-svg.demolab.com/?lines=Full+Stack+Developer;MERN+%7C+WordPress+%7C+Cloud;Open+Source+Contributor;Building+Scalable+Products&font=Fira+Code&weight=700&color=blue&center=true&width=650&height=45"/>
                 </div>
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
                     <strong>Welcome!, I’m Heera Rana</strong><br/>
